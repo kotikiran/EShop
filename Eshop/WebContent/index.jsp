@@ -1,4 +1,4 @@
-
+<!-- Intitial change -->
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%><!DOCTYPE html>
 <!-- HTML5 -->
@@ -379,21 +379,7 @@
 													</tbody>
 												</table>
 											</c:when>
-											<c:when test="${fn:length(requestScope.list)==0}">
-												<table data-minrequestedwidth="601" data-computedwidth="601"
-													style="width: 601px;">
-													<tbody>
-														<tr>
-															<td
-																style="width: 153px; height: 127px; margin-top: 0px; margin-left: 0px;"
-																class="imVt">
-																&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-																NO ITEMS
-															</td>
-														</tr>
-													</tbody>
-												</table>
-											</c:when>
+											
 											<c:otherwise>
 												<table data-minrequestedwidth="601" data-computedwidth="601"
 													style="width: 601px;">
